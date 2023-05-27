@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Çarpım Tablosu</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Çarpım Tablosu</h1>
+        <form action="/result" method="POST">
+            <div class="form-group">
+                <label for="sayi">Sayıyı Girin (1-10):</label>
+                <input type="number" class="form-control" id="sayi" name="sayi" min="1" max="10" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Gönder</button>
+        </form>
+    </div>
+</body>
+</html>

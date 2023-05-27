@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Çarpım Tablosu Sonuçları</title>
+</head>
+<body>
+    <h1>Çarpım Tablosu Sonuçları</h1>
+    <table>
+        {% for num in range(1, 10) %}
+        <tr>
+            <td>{{ sayi }} x {{ num }} =</td>
+            <td>{{ sayi * num }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
